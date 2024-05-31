@@ -11,98 +11,309 @@
 </head>
 
 <body class=" bg-black text-white">
-    <div class="flex container mx-auto my-4">
-        <div class="first w-[70%]">
-            <div class="logo invert my-2">
-                <svg viewBox="0 0 24 24" aria-hidden="true"
-                    class="m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-                    <g>
-                        <path
-                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-                        </path>
-                    </g>
-                </svg>
-            </div>
-            <div class="sidebar flex justify-end ">
-                <ul class="flex flex-col text-xl space-y-2 px-11 font-bold">
+    <div class="flex container">
+        <div class="first w-[80px] md:w-[70%]">
+            <div class="sidebar flex justify-end md:justify-start">
+                <ul class="flex flex-col text-xl space-y-2 px-2 md:px-11 font-bold">
                     <li
-                        class="flex justify-start items-center  px-3 py-1 gap-3 w-fit hover:bg-gray-900  hover:rounded-full hover:cursor-pointer">
+                        class="flex justify-center md:justify-start items-center px-2 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
+                        <div class="logo invert my-2">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                                <g>
+                                    <path
+                                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </li>
+                    <li
+                        class="flex  md:justify-center justify-start items-center px-3 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             home
-                        </span>Home
+                        </span><span class="hidden md:block">Home</span>
                     </li>
                     <li
-                        class="flex justify-start items-center  px-3 py-1 gap-3 w-fit hover:bg-gray-900  hover:rounded-full hover:cursor-pointer">
+                        class="flex justify-center md:justify-start items-center px-3 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             search
-                        </span>Explore
+                        </span><span class="hidden md:block">Explore</span>
                     </li>
                     <li
-                        class="flex justify-start items-center  px-3 py-1 gap-3 w-fit hover:bg-gray-900  hover:rounded-full hover:cursor-pointer">
+                        class="flex justify-center md:justify-start items-center px-3 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             notifications
-                        </span>Notifications
+                        </span><span class="hidden md:block">Notifications</span>
                     </li>
                     <li
-                        class="flex justify-start items-center  px-3 py-1 gap-3 w-fit hover:bg-gray-900  hover:rounded-full hover:cursor-pointer">
+                        class="flex justify-center md:justify-start items-center px-3 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             mail
-                        </span>Message
+                        </span><span class="hidden md:block">Message</span>
                     </li>
                     <li
-                        class="flex justify-start items-center  px-3 py-1 gap-3 w-fit hover:bg-gray-900  hover:rounded-full hover:cursor-pointer">
+                        class="flex justify-center md:justify-start items-center px-3 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             chat
-                        </span>Grok
+                        </span><span class="hidden md:block">Grok</span>
                     </li>
                     <li
-                        class="flex justify-start items-center  px-3 py-1 gap-3 w-fit hover:bg-gray-900  hover:rounded-full hover:cursor-pointer">
+                        class="flex justify-center md:justify-start items-center px-3 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             list
-                        </span>Lists
-                    </li>
+                        </span><span class="hidden md:block">Lists</span>
                     </li>
                     <li
-                        class="flex justify-start items-center  px-3 py-1 gap-3 w-fit hover:bg-gray-900  hover:rounded-full hover:cursor-pointer">
+                        class="flex justify-center md:justify-start items-center px-3 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             bookmarks
-                        </span>Bookmarks
-                    </li>
+                        </span><span class="hidden md:block">Bookmarks</span>
                     </li>
                     <li
-                        class="flex justify-start items-center  px-3 py-1 gap-3 w-fit hover:bg-gray-900  hover:rounded-full hover:cursor-pointer">
+                        class="flex justify-center md:justify-start items-center px-3 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             communities
-                        </span>Communities
+                        </span><span class="hidden md:block">Communities</span>
                     </li>
                     <li
-                        class="flex justify-start items-center  px-3 py-1 gap-3 w-fit hover:bg-gray-900  hover:rounded-full hover:cursor-pointer">
+                        class="flex justify-center md:justify-start items-center px-3 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             workspace_premium
-                        </span>Premium
+                        </span><span class="hidden md:block">Premium</span>
                     </li>
                     <li
-                        class="flex justify-start items-center  px-3 py-1 gap-3 w-fit hover:bg-gray-900  hover:rounded-full hover:cursor-pointer">
+                        class="flex justify-center md:justify-start items-center px-3 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             person
-                        </span>Profile
+                        </span><span class="hidden md:block">Profile</span>
                     </li>
                     <li
-                        class="flex justify-start items-center  px-3 py-1 gap-3 w-fit hover:bg-gray-900  hover:rounded-full hover:cursor-pointer">
+                        class="flex justify-center md:justify-start items-center px-3 py-1 gap-3 w-full md:w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             more_horiz
-                        </span>More
+                        </span><span class="hidden md:block">More</span>
                     </li>
-
                 </ul>
             </div>
         </div>
 
-        <div class="second w-full border border-x-white border-y-black"> </div>
 
-        <div class="third w-full">
+        <div class="second w-full border-[1px] border-gray-700 border-y-black">
+
+            <div class="top flex p-3 relative">
+                <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[17%] z-10"></div>
+                <div class="left w-1/2 flex justify-center text-lg font-bold">For you</div>
+                <!-- <div class="absolute w-[85px] h-1 rounded-full bg-blue-500 bottom-0 left-[57%] z-10"></div> -->
+                <div class="right w-1/2 flex justify-center text-lg font-bold">Following</div>
+                <div class="settings mx-3">
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span>
+                </div>
+            </div>
+            <div class="border w-full border-gray-700"></div>
+            <div class="whatshappening flex gap-4">
+                <div class="img m-2">
+                    <img src="./assets/3.jpg" alt="Profile Picture" class=" mt-1 w-12 h-10 rounded-full">
+                </div>
+                <input class="w-full bg-black text-white outline-none text-xl" type="text"
+                    placeholder="What is happening?!" id="">
+            </div>
+            <div class="text-blue-400 flex justify-between text-sm font-extralight mx-5 mt-5 ">
+                <div class="space-x-2 mx-12">
+                    <span class="material-symbols-outlined">
+                        image
+                    </span>
+                    <span class="material-symbols-outlined">
+                        gif_box
+                    </span>
+                    <span class="material-symbols-outlined">
+                        ballot
+                    </span>
+                    <span class="material-symbols-outlined">
+                        sentiment_satisfied
+                    </span>
+                    <span class="material-symbols-outlined">
+                        pending_actions
+                    </span>
+                    <span class="material-symbols-outlined">
+                        location_on
+                    </span>
+                </div>
+                <!-- <div class="ml-[65px]"> -->
+                <button class="bg-blue-400 text-white w-30 px-8 h-8 rounded-2xl text-sm font-bold">Post</button>
+                <!-- </div> -->
+            </div>
+            <div class="border w-full mt-3 border-gray-700"></div>
+
+            <div class="posts">
+                <div class="one">
+                    <div class="p m-2 flex">
+                        <div>
+                            <img src="./assets/4.png" alt="Profile Picture" class=" mt-1 w-10 h-10 rounded-full">
+                        </div>
+                        <div>
+                            <span class="head1 font-bold mx-2 mt-1">Shoyo Hinata</span>
+                            <span class="material-symbols-outlined text-lg mt-1 text-blue-400">
+                                verified
+                            </span>
+                            <span class="mt-1 font-sm font-extralight text-gray-500 mx-1">
+                                @TheLittleGiant · 11m
+                            </span>
+                            <div class="content mx-2 mt-1 text-sm">
+                                It's painful. I want to stop. When I feel that way, I take a step forwards. <br>
+                                I'm Hinata Shōyō, and I sprouted from the concrete.
+                            </div>
+                            <div class=" text-sm font-light text-gray-500 mx-1 mt-3 justify-between items-center flex">
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        mode_comment
+                                    </span>
+                                    1k
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>
+                                    5k
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>
+                                    <span class="mb-[3px]">111</span>
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span> 15.5k
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>
+                                    1.2k
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border w-full border-gray-700"></div>
+                <div class="three">
+                    <div class="m-2 flex">
+                        <div>
+                            <img src="./assets/6.jpg" alt="Profile Picture" class=" mt-1 w-[90px] h-10 rounded-full">
+                        </div>
+                        <div>
+                            <span class="head2 font-bold mx-2 mt-1">Tomioka Giyū</span>
+                            <span class="material-symbols-outlined text-lg mt-1 text-blue-400">
+                                verified
+                            </span>
+                            <span class="mt-1 font-sm font-extralight text-gray-500 mx-1">
+                                @mizuno_hashira · 11m
+                            </span>
+                            <div class=" mt-2 mb-0 border-gray-500 border-[1px] rounded-lg">
+                                <br>
+                                <video src="./assets/84574-586228759_small.mp4" controls></video>
+                                <br>
+                            </div>
+                            <div class=" text-sm font-light text-gray-500 mx-1 mt-3 justify-between items-center flex">
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        mode_comment
+                                    </span>
+                                    1k
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>
+                                    5k
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>
+                                    <span class="mb-[3px]">111</span>
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span> 15.5k
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>
+                                    1.2k
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border w-full border-gray-700"></div>
+                <div class="two">
+                    <div class="m-2 flex">
+                        <div>
+                            <img src="./assets/5.jpeg" alt="Profile Picture" class=" mt-1 w-40 h-10 rounded-full">
+                        </div>
+                        <div>
+                            <span class="head2 font-bold mx-2 mt-1">Naruto Uzumaki</span>
+                            <span class="material-symbols-outlined text-lg mt-1 text-blue-400">
+                                verified
+                            </span>
+                            <span class="mt-1 font-sm font-extralight text-gray-500 mx-1">
+                                @NanadaimeHokage · 11m
+                            </span>
+                            <div class="contentm mx-2 mt-1 text-sm">
+                                “Hard Work is worthless for those who do not believe in themselves.” While hard work is
+                                important, you need to believe in yourself to make the hard work fruitful. Hard work
+                                without self confidence is like a mango seed sowed in a desert, it will never become a
+                                tree nor will it bear any fruits.
+                            </div>
+                            <div class=" text-sm font-light text-gray-500 mx-1 mt-3 justify-between items-center flex">
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        mode_comment
+                                    </span>
+                                    1k
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>
+                                    5k
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>
+                                    <span class="mb-[3px]">111</span>
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span> 15.5k
+                                </div>
+                                <div class="flex justify-center font-bold">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>
+                                    1.2k
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border w-full border-gray-700"></div>
+            </div>
+        </div>
+
+        <div class="third w-full hidden md:block">
             <div class="search m-3">
-                <input type="text" class="w-2/3 rounded-full bg-gray-900 text-white px-4 py-2" placeholder="search">
+                <input type="text" class="w-[313px] rounded-full bg-gray-900 text-white px-4 py-2" placeholder="search">
             </div>
 
             <div class="whats m-3 p-3 w-2/3 border rounded-xl border-gray-600">
@@ -136,7 +347,8 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="bg-white text-black w-30 px-8 h-8 rounded-2xl text-sm font-bold mt-2">Follow</button>
+                        <button
+                            class="bg-white text-black w-30 px-8 h-8 rounded-2xl text-sm font-bold mt-2">Follow</button>
                     </div>
                     <div class="flex justify-between mt-2 hover:cursor-pointer">
                         <div class="flex space-x-3">
@@ -148,7 +360,8 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="bg-white text-black w-30 px-8 h-8 rounded-2xl text-sm font-bold mt-2">Follow</button>
+                        <button
+                            class="bg-white text-black w-30 px-8 h-8 rounded-2xl text-sm font-bold mt-2">Follow</button>
                     </div>
                     <div class="more mt-4">
                         <a href="" class=" text-blue-500">Show more</a>
