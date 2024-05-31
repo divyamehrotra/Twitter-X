@@ -103,11 +103,11 @@
 
             <div class="top flex p-3 relative">
                 <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[17%] z-10"></div>
-                <div class="left w-1/2 flex justify-center text-lg font-bold">For you</div>
+                <div class="left w-1/2 flex justify-center text-lg font-bold hover:cursor-pointer">For you</div>
                 <!-- <div class="absolute w-[85px] h-1 rounded-full bg-blue-500 bottom-0 left-[57%] z-10"></div> -->
-                <div class="right w-1/2 flex justify-center text-lg font-bold">Following</div>
+                <div class="right w-1/2 flex justify-center text-lg font-bold hover:cursor-pointer">Following</div>
                 <div class="settings mx-3">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined hover:cursor-pointer">
                         settings
                     </span>
                 </div>
@@ -120,34 +120,23 @@
                 <input class="w-full bg-black text-white outline-none text-xl" type="text"
                     placeholder="What is happening?!" id="">
             </div>
-            <div class="text-blue-400 flex justify-between text-sm font-extralight mx-5 mt-5 ">
-                <div class="space-x-2 mx-12">
-                    <span class="material-symbols-outlined">
-                        image
-                    </span>
-                    <span class="material-symbols-outlined">
-                        gif_box
-                    </span>
-                    <span class="material-symbols-outlined">
-                        ballot
-                    </span>
-                    <span class="material-symbols-outlined">
-                        sentiment_satisfied
-                    </span>
-                    <span class="material-symbols-outlined">
-                        pending_actions
-                    </span>
-                    <span class="material-symbols-outlined">
-                        location_on
-                    </span>
+            <div class="text-blue-400 flex justify-between text-sm font-extralight mx-5 mt-5 hover:cursor-pointer">
+                <div class="space-x-2 mx-12 flex flex-wrap">
+                    <span class="material-symbols-outlined block">image</span>
+                    <span class="material-symbols-outlined hidden sm:block">gif_box</span>
+                    <span class="material-symbols-outlined hidden md:block">ballot</span>
+                    <span class="material-symbols-outlined hidden lg:block">sentiment_satisfied</span>
+                    <span class="material-symbols-outlined hidden xl:block">pending_actions</span>
+                    <span class="material-symbols-outlined hidden 2xl:block">location_on</span>
                 </div>
+                
                 <!-- <div class="ml-[65px]"> -->
-                <button class="bg-blue-400 text-white w-30 px-8 h-8 rounded-2xl text-sm font-bold">Post</button>
+                <button class="bg-blue-400  hover:bg-blue-600 text-white w-30 px-8 h-8 rounded-2xl text-sm font-bold">Post</button>
                 <!-- </div> -->
             </div>
             <div class="border w-full mt-3 border-gray-700"></div>
 
-            <div class="posts">
+            <div class="posts hover:cursor-pointer">
                 <div class="one">
                     <div class="p m-2 flex">
                         <div>
@@ -348,7 +337,7 @@
                             </div>
                         </div>
                         <button
-                            class="bg-white text-black w-30 px-8 h-8 rounded-2xl text-sm font-bold mt-2">Follow</button>
+                            class="bg-gray-200 hover:bg-white text-black w-30 px-8 h-8 rounded-2xl text-sm font-bold mt-2">Follow</button>
                     </div>
                     <div class="flex justify-between mt-2 hover:cursor-pointer">
                         <div class="flex space-x-3">
@@ -361,7 +350,7 @@
                             </div>
                         </div>
                         <button
-                            class="bg-white text-black w-30 px-8 h-8 rounded-2xl text-sm font-bold mt-2">Follow</button>
+                            class="bg-gray-200 hover:bg-white text-black w-30 px-8 h-8 rounded-2xl text-sm font-bold mt-2">Follow</button>
                     </div>
                     <div class="more mt-4">
                         <a href="" class=" text-blue-500">Show more</a>
